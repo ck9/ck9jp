@@ -112,31 +112,6 @@
   </div>
  </div>
 
-
-<!-- ブログ最新記事表示
-
- <div class="col s12 m6">
-  <div class="card blue-grey white">
-  <div class="card-content black-text">
-  <span class="card-title">Blog</span>
-
-  <div class="collection">
-<?/*
-$rss = simplexml_load_file("https://blog.ck9.jp/feed");
-$rss = json_decode(json_encode($rss), true);
-
-foreach ($rss["channel"]["item"] as $key => $value) {
-  echo '<a href="'.$value["link"].'" class="collection-item">'.$value["title"].'</a>';
-}
-*/?>
-  </div>
-
-  </div>
-  </div>
- </div>
-
--->
-
 </div>
 
 <?
