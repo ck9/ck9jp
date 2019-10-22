@@ -76,10 +76,10 @@
       <p>くっきーの備忘録</p>
     </a>
 
-    <a href="https://github.com/ck9jp" class="collection-item avatar" >
+    <a href="https://github.com/ck9" class="collection-item avatar" >
       <img src="./image/icon/GitHub.png" class="circle"　>
       <span class="title">GitHub</span>
-      <p>ck9jp</p>
+      <p>ck9</p>
     </a>
     
     <a href="https://imcg.pink-check.school/producer/detail/139009876" class="collection-item avatar">
@@ -92,6 +92,12 @@
       <img src="./image/icon/LINE.png" class="circle"　>
       <span class="title">LINE Stickers</span>
       <p>くっきーのねことそのなかまたち</p>
+    </a>
+
+    <a href="https://twitter.com/imcgcontest" class="collection-item avatar" >
+      <img src="./image/icon/glass slipper.jpg" class="circle"　>
+      <span class="title">デレマス総選挙bot</span>
+      <p>@imcgcontest 投票ツイートを集計&分析</p>
     </a>
 
     <a href="https://zeny.ck9.jp" class="collection-item avatar" >
