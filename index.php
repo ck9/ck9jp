@@ -79,7 +79,13 @@
     <a href="https://github.com/ck9" class="collection-item avatar" >
       <img src="./image/icon/GitHub.png" class="circle"　>
       <span class="title">GitHub</span>
-      <p>ck9</p>
+      <p>github.com/ck9</p>
+    </a>
+
+    <a href="https://keybase.io/ck9" class="collection-item avatar" >
+      <img src="./image/icon/Keybase.png" class="circle"　>
+      <span class="title">Keybase</span>
+      <p>keybase.io/ck9</p>
     </a>
     
     <a href="https://imcg.pink-check.school/producer/detail/139009876" class="collection-item avatar">
