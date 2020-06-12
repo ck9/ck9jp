@@ -36,7 +36,6 @@
 
    <ul class="collection with-header">
      <li class="collection-item">Handle: くっきー, cookie, ck9</li>
-     <li class="collection-item">Birth: 2000/09/26</li>
      <li class="collection-item"><script>(function(d){var s='61646d696e40636b392e6a70';var m='';for(var i=0;i<s.length;i+=2){m+=String.fromCharCode('0x'+s[i]+s[i+1]);}d.write('Email: '+m);})(document);</script></li>
      <li class="collection-item"> Programming: C++, PHP</li>
    </ul>
@@ -88,7 +87,7 @@
       <p>keybase.io/ck9</p>
     </a>
     
-    <a href="https://imcg.pink-check.school/producer/detail/139009876" class="collection-item avatar">
+    <a href="https://pink-check.school/producer/detail/139009876" class="collection-item avatar">
       <img src="./image/icon/imas_cg.png" class="circle">
       <span class="title">imcg(ID:139009876)</span>
       <p>アイドルマスター シンデレラガールズ </p>
