@@ -105,6 +105,12 @@
       <p>@imcgcontest 投票ツイートを集計&分析</p>
     </a>
 
+    <a href="https://vtuber.ck9.jp" class="collection-item avatar" >
+      <img src="./image/icon/nijisanji-microphone.png" class="circle"　>
+      <span class="title">にじさんじ 歌唱まとめ</span>
+      <p>にじさんじ所属ライバーが配信で歌った曲のリスト</p>
+    </a>
+
     <a href="https://zeny.ck9.jp" class="collection-item avatar" >
       <img src="./image/icon/bitzeny.png" class="circle"　>
       <span class="title">JPY/Bitzeny chart</span>
