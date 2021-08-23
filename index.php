@@ -6,16 +6,26 @@
   <meta charset="UTF-8">
 
   <title>ck9.jp</title>
-  <meta name="description" content="@0926cookie">
+  <meta name="description" content="HomePage of @ck9jp">
   <link rel="shortcut icon" href="favicon.ico">
 
   <meta property="og:title" content="ck9.jp">
   <meta property="og:url" content="https://ck9.jp/">
   <meta property="og:image" content="./image/cat.jpg" />
-  <meta property="og:description" content="@0926cookie">
+  <meta property="og:description" content="HomePage of @ck9jp">
   
   <link href="//cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css" type="text/css" rel="stylesheet" media="screen,projection"/>
 
+  <!-- Global site tag (gtag.js) - Google Analytics -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=UA-63022174-2"></script>
+  <script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'UA-63022174-2');
+  </script>
+    
 </head>
 
 <body> 
@@ -63,10 +73,10 @@
 
    <ul class="collection">
 
-    <a href="https://twitter.com/cookie_imcg" class="collection-item avatar">
+    <a href="https://twitter.com/ck9jp" class="collection-item avatar">
       <img src="./image/icon/Twitter.png" class="circle"　>
       <span class="title">Twitter</span>
-      <p>@cookie_imcg</p>
+      <p>@ck9jp</p>
     </a>
 
     <a href="https://blog.ck9.jp/" class="collection-item avatar" >
@@ -111,16 +121,22 @@
       <p>にじさんじ所属ライバーが配信で歌った曲のリスト</p>
     </a>
 
+    <a href="https://tool.ck9.jp/YT2mp4/" class="collection-item avatar" >
+      <img src="./image/icon/yt2mp4.png" class="circle"　>
+      <span class="title">YouTube mp4 Converter</span>
+      <p>YouTubeの動画をmp4/mp3形式に変換してダウンロード</p>
+    </a>
+
     <a href="https://zeny.ck9.jp" class="collection-item avatar" >
       <img src="./image/icon/bitzeny.png" class="circle"　>
       <span class="title">JPY/Bitzeny chart</span>
       <p>JPY/ZNYを算出＆記録</p>
     </a>
 
-    <a href="https://ck9.jp/LINE/" class="collection-item avatar" >
+    <a href="https://tool.ck9.jp/line/" class="collection-item avatar" >
       <img src="./image/icon/cat.png" class="circle"　>
       <span class="title">LINE Stickers Image Viewer</span>
-      <p>スタンプIDを入力すると該当LINEスタンプを画像形式で一覧表示</p>
+      <p>LINEスタンプを画像ファイル形式で一括取得</p>
     </a>
 
    </ul>
