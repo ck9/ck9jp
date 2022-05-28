@@ -1,0 +1,3 @@
+# デフォルトURLはNoIndex
+https://myproject.pages.dev/*
+  X-Robots-Tag: noindex

@@ -2,6 +2,7 @@
 
 https://ck9.jp
 
+Hosted By Cloudflare Pages
 
 # Author
 
