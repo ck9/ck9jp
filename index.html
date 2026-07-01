@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html>
+<html theme="light">
 <head>
 
   <meta name=viewport content="width=device-width, initial-scale=1">
@@ -17,7 +17,7 @@
   <meta name="twitter:card" content="summary" />
   <meta name="twitter:site" content="@ck9jp" />
   
-  <link href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css" type="text/css" rel="stylesheet" media="screen,projection"/>
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@materializecss/materialize@2.2.2/dist/css/materialize.min.css">
 
   <!-- Global site tag (gtag.js) - Google Analytics -->
   <script async src="https://www.googletagmanager.com/gtag/js?id=UA-63022174-2"></script>
@@ -29,31 +29,25 @@
     gtag('config', 'UA-63022174-2');
   </script>
   
-  <style>
-    #awards a {
-      color: black;
-    }
-  </style>
-    
 </head>
 
 <body> 
 
-  <nav>
+  <nav class="nav navbar">
     <div class="nav-wrapper blue-grey darken-3">
       <a href="https://ck9.jp" class="brand-logo center">ck9.jp</a>
     </div>
   </nav>
 
-  <div class="row">
+  <div class="row px-4">
 
     <div class="col s12 m6">
-      <div class="card blue-grey white">
+      <div class="card blue-grey white my-4">
         <div class="card-content black-text">
 
           <span class="card-title">About me</span>
 
-          <ul class="collection with-header" id="about">
+          <ul class="collection" id="about">
             <li class="collection-item">Handle: くっきー, cookie, ck9</li>
             <li class="collection-item"><script>(function(d){var s='61646d696e40636b392e6a70';var m='';for(var i=0;i<s.length;i+=2){m+=String.fromCharCode('0x'+s[i]+s[i+1]);}d.write('Email: '+m);})(document);</script></li>
             <li class="collection-item"> Skills: C/C++, PHP,  JavaScript, TypeScript,  Python,  Ruby,  Go, etc.</li>
@@ -62,19 +56,19 @@
 
           <span class="card-title">Awards</span>
             
-          <ul class="collection with-header" id="awards">
-            <a class="collection-item" href="https://www.ipa.go.jp/jinzai/mitou/it/2024/gaiyou-tn-1.html">2024年度 未踏IT人材発掘・育成事業 採択・スーパークリエータ認定<br>「ゼロデイ攻撃の対象となるIoT機器を早期特定するシステムの開発」</a>
-            <a class="collection-item" href="https://www.iwsec.org/css/2024/award.html">CSS2024学生論文賞<br>「ハニーポットで観測される新規エクスプロイトの分類手法の提案」</a>
-            <a class="collection-item" href="https://www.es.ynu.ac.jp/news/20250327.html">横浜国立大学 令和6年度理工学部長表彰</a>
-            <a class="collection-item" href="https://x.com/ck9jp/status/1862775080973213888">総務省「全国型CTFコンテスト」オンサイト1位</a>
-            <a class="collection-item" href="https://www.iwsec.org/css/2025/award.html">CSS2025エシカルプラクティス賞<br>「セキュリティホールか意図的なバックドアか？IoT機器におけるマニュアルに記載されていないTelnet・SSHサービスの調査」</a>
-            <a class="collection-item" href="https://www.ipsj.or.jp/award/mws-award3.html">MWS Cup 2025 DFIR+Offensive部門／静的解析部門 優勝</a>
-            <a class="collection-item" href="https://digitalforensic.jp/2025/11/26/df_awards_2025/">デジタル・フォレンジック研究会 第22期（2025年度）「デジタル・フォレンジック優秀若手研究者」最優秀賞</a>
-          </ul>
+          <div class="collection" id="awards">
+            <a class="collection-item black-text" href="https://www.ipa.go.jp/jinzai/mitou/it/2024/gaiyou-tn-1.html">2024年度 未踏IT人材発掘・育成事業 採択・スーパークリエータ認定<br>「ゼロデイ攻撃の対象となるIoT機器を早期特定するシステムの開発」</a>
+            <a class="collection-item black-text" href="https://www.iwsec.org/css/2024/award.html">CSS2024学生論文賞<br>「ハニーポットで観測される新規エクスプロイトの分類手法の提案」</a>
+            <a class="collection-item black-text" href="https://www.es.ynu.ac.jp/news/20250327.html">横浜国立大学 令和6年度理工学部長表彰</a>
+            <a class="collection-item black-text" href="https://x.com/ck9jp/status/1862775080973213888">総務省「全国型CTFコンテスト」オンサイト1位</a>
+            <a class="collection-item black-text" href="https://www.iwsec.org/css/2025/award.html">CSS2025エシカルプラクティス賞<br>「セキュリティホールか意図的なバックドアか？IoT機器におけるマニュアルに記載されていないTelnet・SSHサービスの調査」</a>
+            <a class="collection-item black-text" href="https://www.ipsj.or.jp/award/mws-award3.html">MWS Cup 2025 DFIR+Offensive部門／静的解析部門 優勝</a>
+            <a class="collection-item black-text" href="https://digitalforensic.jp/2025/11/26/df_awards_2025/">デジタル・フォレンジック研究会 第22期（2025年度）「デジタル・フォレンジック優秀若手研究者」最優秀賞</a>
+          </div>
 
           <span class="card-title">CVEs</span>
             
-          <ul class="collection with-header" id="cves">
+          <ul class="collection" id="cves">
             <li class="collection-item">CVE-2025-64730<br> ソニー株式会社製SNC-CX600WにおけるXSS脆弱性</li>
             <li class="collection-item">CVE-2025-62497<br> ソニー株式会社製SNC-CX600WにおけるCSRF脆弱性</li>
             <li class="collection-item">CVE-2025-58778<br> Ruijie Networks製RG-EST300における非公開機能を悪用される問題</li>
@@ -86,12 +80,12 @@
         </div>
       </div>
 
-      <div class="card blue-grey white">
+      <div class="card blue-grey white my-4">
         <div class="card-content black-text">
 
         <span class="card-title">Links</span>
 
-          <ul class="collection" id="links">
+          <div class="collection" id="links">
 
             <a href="https://twitter.com/ck9jp" class="collection-item avatar">
               <img src="https://img.ck9.jp/icon/twitter.jpg" class="circle">
@@ -123,7 +117,7 @@
               <p>instagram.com/ck9jp</p>
             </a>
 
-          </ul>
+          </div>
 
         </div>
       </div>
@@ -132,12 +126,12 @@
 
 
     <div class="col s12 m6">
-      <div class="card blue-grey white">
+      <div class="card blue-grey white my-4">
         <div class="card-content black-text">
 
         <span class="card-title">Products</span>
 
-          <ul class="collection">
+          <div class="collection">
 
             <a href="http://line.me/S/sticker/1091790" class="collection-item avatar">
               <img src="https://img.ck9.jp/icon/cat-summer.jpg" class="circle">
@@ -193,7 +187,7 @@
               <p>にじさんじ所属ライバーが配信で歌った曲を一覧表示・検索</p>
             </a>
 
-          </ul>
+          </div>
 
         </div>
       </div>
@@ -201,12 +195,8 @@
 
   </div>
 
-  <div class="footer">
-    <div class="container">
-     <div class="row center">
-       <p>&copy 2017-<script>document.write(new Date().getFullYear())</script> ck9.jp</p>
-     </div>
-    </div>
+  <div class="footer center-align">
+    <p>&copy 2017-<script>document.write(new Date().getFullYear())</script> ck9.jp</p>
   </div>
 
 
